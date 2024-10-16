@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Match the Pairs Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Match the Pairs 🧩</h1>
+    <div class="scoreboard">
+      <div>Pairs matched: <span id="pairsMatched">0</span>/8</div>
+      <div>Total moves: <span id="totalMoves">0</span></div>
+    </div>
+    <div class="game-grid" id="gameGrid"></div>
+    <button id="restartButton">Reset game</button>
+    <button id="endButton">End game</button>
+    <p id="statusMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
